@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.logo img{
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    max-width: 50%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    background-color: grey;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}.nav-list{
+    width: 50%;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 22px;
+    margin-left: -9px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nav-list li a:hover{
+    color: rgb(223, 176, 19);
+}
+.rightnav{
+    /* background-color: brown; */
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 4px;
+    margin-top: 20px;
+    margin-right: 2px;
+    border-radius: 90px;
+    color:green;
+    font-size: 15px;
+
+}
+.btn.btn-sm{
+    margin-right: 60px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.6) url('/images/nepal_ama_logo2.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+}
+.bg{
+    background:rgba(0, 0, 0, 0.1) url('/images/nepals_image.gif');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom:250px;
+    padding-left: 470px;
+}
+.secondhalf{
+    width: 50%;
+}
+.secondhalf img{
+    border-radius: 300px;
+    height: 50%;
+    border: 2px solid red;
+    margin-top: 170px;
+    margin-left: 110px;
+    margin-right: 100px;
+}
+.text-talk{
+    font-size: 35px;
+    font-style:inherit;
+}
+.btn{
+    margin: 8px 0px;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+.intro{
+    color: black;
+    font-size: 18px;
+    margin-left: 17px;
+}
+/* #sintro{
+    color: black;
+} */
+.heading{
+    color: red;
+    font-size: 40px;
+}
+.bot{
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
